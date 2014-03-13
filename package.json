@@ -1,10 +1,10 @@
 {
   "name": "atom-bundle-snippets",
   "main": "./lib/atom-bundle-snippets",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.0.1",
+  "description": "Full Stack Javascript Snippets for Atom",
   "activationEvents": ["atom-bundle-snippets:toggle"],
-  "repository": "https://github.com/atom/atom-bundle-snippets",
+  "repository": "https://github.com/mattma/atom-bundle-snippets",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
