@@ -1,0 +1,4 @@
+".source.js":
+    "console.log":
+        "prefix": "logvar"
+        "body": "console.log('${1:obj}: ', ${2:obj});"
