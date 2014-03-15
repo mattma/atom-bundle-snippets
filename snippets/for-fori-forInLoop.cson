@@ -1,0 +1,10 @@
+".source.js":
+    "for in loop":
+        "prefix": "fori"
+        "body": """
+            for (var ${1:prop} in ${2:obj}) {
+                if (obj.hasOwnProperty(prop)) {
+                    ${0:// body...}
+                }
+            }
+        """

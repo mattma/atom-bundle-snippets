@@ -1,0 +1,8 @@
+".source.js":
+    "forEach loop":
+        "prefix": "fore"
+        "body": """
+            ${1:myArray}.forEach(function (value, index) {
+                ${0:// body...}
+            });
+        """
