@@ -9,6 +9,12 @@ class AtomBundleSnippetsView extends View
   initialize: (serializeState) ->
     atom.workspaceView.command "atom-bundle-snippets:toggle", => @toggle()
 
+    # getUserSnippetsPath: function() {
+    #   var userSnippetsPath;
+    #   userSnippetsPath = CSON.resolve(path.join(atom.getConfigDirPath(), 'snippets'));
+    #   return userSnippetsPath != null ? userSnippetsPath : path.join(atom.getConfigDirPath(), 'snippets.cson');
+    # },
+
   # Returns an object that can be retrieved when package is activated
   serialize: ->
 
